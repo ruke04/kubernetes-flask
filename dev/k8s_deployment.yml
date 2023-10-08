@@ -14,10 +14,10 @@ spec:
     spec:
       containers:
       - name: flask-frontend
-        image: ruke04/flask-frontend:1.1
+        image: ruke04/flask-frontend:1.3
         ports:
         - containerPort: 5100
       - name: flask-backend
-        image: ruke04/flask-backend:1.1
+        image: ruke04/flask-backend:1.3
         ports:
         - containerPort: 5200          
